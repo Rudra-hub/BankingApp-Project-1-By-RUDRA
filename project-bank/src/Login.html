@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Fire UI CSS -->
+            <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/FireUI.min.css">
+            <link rel="stylesheet" type="text/css" href="css1.css">
+            <!-- Fire UI Javascript -->
+            <script src="https://cdn.jsdelivr.net/npm/@fire-ui/fire-ui@0.2.4/FireUI.min.js"></script>
+            <title>LOGIN-FORM</title>
+        </head>
+        <body>
+            <div id="form">
+                <div className="centeredForm">
+                    <div class="box theme-reverse">
+                        <div class="box">
+                            <div class="tab" data-tab="formTab">
+                                <button class="tab-btn btn-light" data-content="login" id="a">Cutomer Login</button>
+                                <button class="tab-btn btn-light" data-content="register" id="b">Employee Login</button>
+                            </div>
+
+                            <div class="tab-contents" id="formTab">
+                                <div id="login" class="tab-content tab-content-active">
+                                    <form action="#" method="POST">
+                                        <div class="form-group form-animate">
+                                            <label for="login-username" class="form-label">Username</label>
+                                            <input type="text" class="input-animate" id="login-username" required autocomplete="username">
+                                        </div>
+                                        <div class="form-group form-animate">
+                                            <label for="login-password" class="form-label">Password</label>
+                                            <input type="password" class="input-animate" id="login-password" required autocomplete="current-password">
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn form-control theme-adjust">Login</button>
+                                        </div>
+                                        <div class="containerreturn">
+                                            <p>Create an account? <a href="Registration.html">Register</a>.</p>
+                                          </div>
+                                    </form>
+                                </div>
+
+                                <div id="register" class="tab-content">
+									<div id="login" class="tab-content tab-content-active">
+										<form action="#" method="POST">
+											<div class="form-group form-animate">
+												<label for="login-username" class="form-label">Username</label>
+												<input type="text" class="input-animate" id="login-username" required autocomplete="username">
+											</div>
+											<div class="form-group form-animate">
+												<label for="login-password" class="form-label">Password</label>
+												<input type="password" class="input-animate" id="login-password" required autocomplete="current-password">
+											</div>
+											<div class="form-group">
+												<button class="btn form-control theme-adjust">Login</button>
+											</div>
+                                            <div class="containerreturn">
+                                                <p>Create an account? <a href="Registration.html" >Register</a>.</p>
+                                              </div>
+										</form>
+
+									</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-5"></div>
+                </div>
+            </div>
+        </body>
+</html>

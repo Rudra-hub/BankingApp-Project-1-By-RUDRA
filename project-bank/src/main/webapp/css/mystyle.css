@@ -1,0 +1,11 @@
+.map-container-3{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+
+}
+.map-container-3 iframe{
+height:50%;
+width:50%;
+position:absolute;
+}

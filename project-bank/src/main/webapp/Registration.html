@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Login Form Design</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body> 
+     <div class="wrapper">
+         
+
+         <form class="form" method="post" action="CustomerController">
+           
+        
+            
+            <div class="signup" >
+                <div class="form-group">
+                    <div class="headline">
+                        <h3>Customer Registration Page.</h3>
+                    </div>
+                    <input type="text" placeholder="Customer Name"  name="customerName" id="customerName" required="">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Mobile Number" name="mobileNumber" id="mobileNumber" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" name="emailId" id="emailId" required="">
+                </div>
+                <div class="form-group">
+                    <input type="number" placeholder="Balance" name="balance" id="balance" value="5000" readonly="readonly" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" name="password" id="password" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Confirm Password" name="confirmpassword" id="confirmpassword" required="">
+                </div>
+                    <button type="submit" class="btn">SIGN UP</button>
+
+                <div class="account-exist">
+                    Employee Registration <a href="#" id="signin">Employee Signup</a>
+                </div>
+            </div>
+         </form>
+        
+         <form class="form" method="post" action="EmployeeController" >    
+            <div class="signin" action> 
+                <div class="form-group">
+                    <div class="headline">
+                        <h3>Employee Registration Page.</h3>
+                    </div>
+                    <input type="text" placeholder="Employee Name" name="employeeName" id="employeeName" required="">
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Mobile Number" name="mobileNumber" id="mobileNumber" required="">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" name="emailId" id="emailId" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" name="password" id="password" required="">
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Confirm Password" name="confirmpassword" id="confirmpassword"" required="">
+                </div>
+                <button type="submit" class="btn">Sign-Up</button>
+                <div class="account-exist">
+                   Customer Registration <a href="#" id="signup">Customer Signup</a>
+                </div>
+            </div>
+        </form>
+     </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
